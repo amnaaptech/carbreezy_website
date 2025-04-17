@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarBreezy</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .navbar {
+            background-color: black;
+        }
+
+        .placeholder {
+            border-radius: 2px solid black;
+        }
+
+        .card {
+            transition: all;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            text-decoration: none;
+        }
+
+        body {
+            color: white;
+        }
+
+        .container-fluid {
+            color: black;
+        }
+
+        .footer {
+            margin-top: 20px;
+            background-color: black;
+        }
+
+        .footer-content h2 {
+            color: white;
+        }
+
+        .footer-content h5,
+        .footer-content p,
+        .footer-links a {
+            color: white;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer hr {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a href="Home.html" class="navbar-brand  text-white  ">
+                <img src="images/logo.png" style="width: 100px; height: 100px;" alt="">
+                CarBreezy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navOne"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/menu--v1.png"
+                    alt="menu--v1" />
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navOne">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-white">
+                        <a href="Home.html" class="nav-link text-white">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            NEW CARS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="newcar.html" class="dropdown-item text-black">FIND NEW CARS</a></li>
+                            <li><a href="prices.html" class="dropdown-item text-black">PRICES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            USED CARS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="used.html" class="dropdown-item  text-black">USED CARS FOR SALE</a></li>
+                            <li><a href="used.html" class="dropdown-item text-black ">FEATURED USED CAR</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            BRANDS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="Mb.html" class="dropdown-item text-black ">MARCEDEES-BENZ</a></li>
+                            <li><a href="Toyota.html" class="dropdown-item text-black ">TOYOTA</a></li>
+                            <li><a href="Hyundai.html" class="dropdown-item text-black ">HYUNDAI</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="offers.html" class="nav-link text-white">OFFERS</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="aboutus.html" class="nav-link text-white">ABOUT US</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="contactus.html" class="nav-link text-white">CONTACT US</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="faqs.html" class="nav-link text-white">FAQ'S</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="index.html" class="nav-link text-white">GALLERY</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <img src="images/faq.jpg" alt="" style="width: 100%; height: 400px;">
+    <!-- Faqs -->
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        I have a new email address and I forgot my password
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body  text-black ">
+                        If you have forgotten your password on CARBREEZY:
+
+                        Go to the Login page by clicking on the ‘Sign In’ link on the top right of the Home
+                        Page.
+                        Click on the ‘Forgot Password’ link below the ‘Submit’ button.
+                        Type in your email address OR username and click Submit.
+                        You will be sent a password reset URL in your e-mail. Click on that.
+                        A form asking your new password will open up in your browser.
+                        Type in your new password (and re-confirm it) and press Submit.
+                        Your password will be reset and you will be logged into CARBREEZY
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How do I post an ad for my car?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black ">
+                            <p>Here’s how you can post an ad:</p>
+
+                            <p>Sign in to PakWheels (Sign up first if you haven’t done so).
+                                Click on the ‘Sell your Car’ quick link on the home page
+                                OR click the Used Cars tab and then the ‘Sell your car’ sub-menu link.</p>
+
+                            <p>Fill up the form that opens up and press submit.</p>
+                            <p>Your Ad will be submitted to the admin staff for approval. Once you get a confirmation
+                                email,
+                                you will be able to see your ad in the search listings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            I got an email saying my used car ad was rejected. Why?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black ">
+                            <p>Your ad could was rejected due to one or more of the following reasons:
+
+                                You did not provide complete/correct details for your car.
+                                We found pictures or comments regarding your vehicle that violated our terms of
+                                services.
+                                We tried to call you to verify the authenticity of the ad but were not able to reach
+                                you.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                            I don’t want to sell my car anymore. How do I close my ad?
+                        </button>
+                    </h2>
+                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black">
+                            <p>Here’s how you close an ad:</p>
+
+                            <p>Sign in to CARBREEZY</p>
+                            <p>Click on the ‘Used Cars’ tab. Then, click on the ‘My Ads’ tab in the sub-menu.</p>
+                            <p>Find the car ad you want to close in the listings.</p>
+                            <p>Click on the ‘Close’ link for that ad.</p>
+                            <p>The page will refresh with the status of your ad changed to ‘Close’. Now, your ad won’t
+                                show
+                                up on the active search listing unless you choose to ‘re-open’ it later on.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingfive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                            Will my email be displayed when I’m selling a car?
+                        </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-black ">
+                            <p>No, your email will not be exposed to anyone. Interested buyers will enter the message
+                                they want to send you and we will simply forward that to you keeping your email address
+                                hidden from them. But in case you receive some spam, you will always have an option in
+                                the email to report the abuse and PakWheels will take care of it.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="footer ">
+            <div class="container-fluid text-white ">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>CARBREEZY</h5>
+                        <ul class="nav flex-column">
+                            <li class="list-inline-item">
+                                <a href="index.html" class="text-white"> Gallery
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="faqs.html" class="text-white">FAQS</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="aboutus.html" class="text-white">About Us</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="contactus.html" class="text-white">Contact us</a>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <h5>About Us</h5>
+                        <p>
+                            CARBREEZY is a leading digital marketplace and solutions provider for the automotive
+                            industry
+                            that connects car shoppers with sellers. Launched in 1998 and headquartered in Pakistan.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li>Email: info@example.com</li>
+                            <li>Phone: +1233567890</li>
+                            <li>Address: 123 Street, Karachi, Pakistan</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Follow Us</h5>
+                        <ul class="list-inline footer-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/" target="_blank" class="text-white"><img
+                                        src="images/fb logo.png" alt=""></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"
+                                    class="text-white"><img src="images/instagram.png"></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/login" target="_blank" class="text-white"><img
+                                        src="images/linkedin.png" alt=""></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/login" target="_blank" class="text-white"><img
+                                        src="images/twitter.png" alt=""></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://web.whatsapp.com/" target="_blank" class="text-white"><img
+                                        src="images/whatsapp.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>© 2024 Your Website. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <ul class="list-inline footer-links">
+                            <li class="list-inline-item">
+                                <a href="privacypolicy.html" class="text-white">Privacy Policy</a>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="termsofservice.html" class="text-white">Terms Of Service</a>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="sitemap.pdf" class="text-white">Site Map</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+</body>
+
+</html>

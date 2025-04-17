@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarBreezy</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .navbar {
+            background-color: black;
+        }
+
+        .placeholder {
+            border-radius: 2px solid black;
+        }
+
+        .card {
+            transition: all;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            text-decoration: none;
+        }
+
+        body {
+            color: white;
+        }
+
+        .container-fluid {
+            color: black;
+        }
+
+        .footer {
+            margin-top: 20px;
+            background-color: black;
+        }
+
+        .footer-content h2 {
+            color: white;
+        }
+
+        .footer-content h5,
+        .footer-content p,
+        .footer-links a {
+            color: white;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .footer hr {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a href="Home.html" class="navbar-brand  text-white  ">
+                <img src="images/logo.png" style="width: 100px; height: 100px;" alt="">
+                CarBreezy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navOne"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="toggle navigation">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FFFFFF/menu--v1.png"
+                    alt="menu--v1" />
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navOne">
+                <ul class="navbar-nav">
+                    <li class="nav-item text-white">
+                        <a href="Home.html" class="nav-link text-white">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            NEW CARS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="newcar.html" class="dropdown-item text-black">FIND NEW CARS</a></li>
+                            <li><a href="prices.html" class="dropdown-item text-black">PRICES</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            USED CARS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="used.html" class="dropdown-item  text-black">USED CARS FOR SALE</a></li>
+                            <li><a href="used.html" class="dropdown-item text-black ">FEATURED USED CAR</a></li>
+
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                            BRANDS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="Mb.html" class="dropdown-item text-black ">MARCEDEES-BENZ</a></li>
+                            <li><a href="Toyota.html" class="dropdown-item text-black ">TOYOTA</a></li>
+                            <li><a href="Hyundai.html" class="dropdown-item text-black ">HYUNDAI</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="offers.html" class="nav-link text-white">OFFERS</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="aboutus.html" class="nav-link text-white">ABOUT US</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="contactus.html" class="nav-link text-white">CONTACT US</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="faqs.html" class="nav-link text-white">FAQ'S</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a href="index.html" class="nav-link text-white">GALLERY</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-center  text-white "> Latest Cars</h1>
+    <div class="container-fluid ">
+        <div class="row">
+            <!-- card1 -->
+            <div class="col-md-3 mt-2 ">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/1.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h2 class="text-center ">Hyundai H-100</h2>
+                        <h6 class="text-center "> PKR 38.0-38.4Lacs</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 1 ended -->
+            <!-- card2 -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/2.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h2 class="text-center ">Hyundai Elantra</h2>
+                        <h6 class="text-center "> PKR 64.0-69.3Lacs</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 ended -->
+            <!-- card3 -->
+            <div class="col-md-3 mt-2 ">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/3.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h2 class="text-center ">Hyundai Tucson</h2>
+                        <h6 class="text-center "> PKR 71.7-86.6Lacs</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 ended -->
+            <!-- card4 -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/4.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h2 class="text-center ">Hyundai Staria</h2>
+                        <h6 class="text-center "> PKR 83.6-1.1 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4 ended -->
+        </div>
+        <div class="row pt-3 ">
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb5.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz S</h3>
+                        <h6 class="text-center "> PKR 8.0 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb6.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz C</h3>
+                        <h6 class="text-center "> PKR 3.07 -7.2 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 6 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb7.jpeg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz EQS</h3>
+                        <h6 class="text-center "> PKR 5.8-8.7 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 7 ended -->
+            <div class="col-md-3 mt-2 ">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb8.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz EQC</h3>
+                        <h6 class="text-center "> PKR 2.81 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 8 ended -->
+        </div>
+        <div class="row pt-3 ">
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb9.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz SLK</h3>
+                        <h6 class="text-center "> PKR 1.18 crore</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 9 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb10.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz EQE</h3>
+                        <h6 class="text-center "> PKR 4.6 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 10 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb11.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz M</h3>
+                        <h6 class="text-center "> PKR 3.56 Crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 11 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/mb12.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Mercedes Benz B</h3>
+                        <h6 class="text-center "> PKR 3.12 Crore</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3 ">
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t5.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Hilux</h3>
+                        <h6 class="text-center "> PKR 1.1-1.54 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t6.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Prius</h3>
+                        <h6 class="text-center "> PKR 1.3-1.47crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 6 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t7.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Hiace</h3>
+                        <h6 class="text-center "> PKR 2.1crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 7 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t8.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Fortuner</h3>
+                        <h6 class="text-center "> PKR 2.1crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 8 ended -->
+        </div>
+        <div class="row pt-3 ">
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t9.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Coaster</h3>
+                        <h6 class="text-center "> PKR 2.68 crore</h6>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 9 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t10.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Camry</h3>
+                        <h6 class="text-center "> PKR 5.39 crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 10 ended -->
+            <div class="col-md-3 mt-2 ">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t11.jpg" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Prado</h3>
+                        <h6 class="text-center "> PKR 9.56 Crore</h6>
+                    </div>
+                </div>
+            </div>
+            <!-- card 11 ended -->
+            <div class="col-md-3 mt-2">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="hyundai/t12.png" alt="" style="width:100%; height: 300px;" class="img">
+                        <h3 class="text-center ">Toyota Land Cruiser</h3>
+                        <h6 class="text-center "> PKR 10.94 Crore</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer ">
+        <div class="container-fluid text-white ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>CARBREEZY</h5>
+                    <ul class="nav flex-column">
+                        <li class="list-inline-item">
+                            <a href="index.html" class="text-white"> Gallery
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="faqs.html" class="text-white">FAQS</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="aboutus.html" class="text-white">About Us</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="contactus.html" class="text-white">Contact us</a>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-3">
+                    <h5>About Us</h5>
+                    <p>
+                        CARBREEZY is a leading digital marketplace and solutions provider for the automotive industry
+                        that connects car shoppers with sellers. Launched in 1998 and headquartered in Pakistan.
+                    </p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: info@example.com</li>
+                        <li>Phone: +1233567890</li>
+                        <li>Address: 123 Street, Karachi, Pakistan</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Follow Us</h5>
+                    <ul class="list-inline footer-links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/" target="_blank" class="text-white"><img
+                                    src="images/fb logo.png" alt=""></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"
+                                class="text-white"><img src="images/instagram.png"></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/login" target="_blank" class="text-white"><img
+                                    src="images/linkedin.png" alt=""></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/login" target="_blank" class="text-white"><img
+                                    src="images/twitter.png" alt=""></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://web.whatsapp.com/" target="_blank" class="text-white"><img
+                                    src="images/whatsapp.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>© 2024 Your Website. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <ul class="list-inline footer-links">
+                        <li class="list-inline-item">
+                            <a href="privacypolicy.html" class="text-white">Privacy Policy</a>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="termsofservice.html" class="text-white">Terms Of Service</a>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="sitemap.pdf" class="text-white">Site Map</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
